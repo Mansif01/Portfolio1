@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css"></link>
+</head>
+<body>
+
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Home</a></li>
+            <li class="link"><a href="#">Projects</a></li>
+            <li class="link"><a href="#">About</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!--Home section-->
+    <section class="home-section active">
+        <h1 class="hero-heading">i love <br> coding</h1>
+        <img src="programming.jpeg" class="home-img" alt="">
+    </section>
+
+    <!-- project section -->
+    <section class="project-section">
+        <h1 class="project-heading">some of my projects</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="project-1.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Data Science and Machine Learning</h1>
+                    <p class="project-info">
+                        In this data science project, I analyzed and modeled wine quality for red and white wines using multiple datasets.Using correlation analysis, I selected key features and built predictive models, exploring both classification and regression approaches. 
+                    </p>
+                    <div class="project-btn-grp">
+                        
+                        <button class="project-btn live" onclick="window.location.href='https://colab.research.google.com/drive/1jvNMIkly91YvUkPoB_6dlytcXyiOiE3m'">See live</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+
+            <div class="project-card">
+                <img src="drumkit-pic.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Drum Kit</h1>
+                    <p class="project-info">
+                        This Drum Kit project is an interactive web application that plays different drum sounds when users click on buttons or press corresponding keys on the keyboard. Each button is styled with unique drum images, and when clicked or pressed, it plays a specific drum sound using the Audio API. 
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn live" onclick="window.location.href='https://mansif01.github.io/DrumKit/'">See Live</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+
+            <div class="project-card">
+                <img src="tindog_pic.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Tindog Website</h1>
+                    <p class="project-info">
+                        This project is a dynamic landing page for the fictional "TinDog" app, designed to connect dog enthusiasts.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn live" onclick="window.location.href='https://mansif01.github.io/TinDog/'">See Live</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+
+
+
+            <div class="project-card">
+                <img src="web_application.png" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">Python Flask Project</h1>
+                    <p class="project-info">
+                        I enhanced the security of a Lottery Web Application prototype for Newcastle University, developed using Python Flask. My contributions included implementing robust user registration validation, two-factor authentication, comprehensive error handling, secure user authentication and authorization, detailed logging of user activity, data encryption, and secure transmission.
+                    </p>
+                    <div class="project-btn-grp">
+                        <button class="project-btn live" onclick="window.location.href='https://github.com/Mansif01/Flask-Project'">See Live</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about-section">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="developer-pic.jpeg" class="about-img" alt="">
+                <button class="download-cv-btn">downlaod cv</button>
+            </div>
+            <p class="about-info">I am a passionate Computer Science student at Newcastle University, always eager to explore new technologies. During my time at the university, I've worked on numerous projects using a variety of programming languages. These experiences have not only honed my technical skills but also taught me the value of effective communication and teamwork.
+                Coding is a personal passion of mine, and I love creating innovative projects in my leisure time. My goal is to leverage the skills I've acquired to solve real-world problems and make a meaningful impact.
+                I recently completed an internship, where I received outstanding feedback for developing interactive web pages. This experience further fueled my enthusiasm for technology and creative problem-solving.</p>
+        </div>
+
+          <!-- skills -->
+          <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="web-development.jpeg" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">Web Development</h1>
+                    <p class="skill-info">With a strong foundation in web development, I am proficient in creating dynamic and user-friendly websites. My skill set includes a wide range of technologies and tools that enable me to build responsive and interactive web applications.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="python.jpeg" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">Python</h1>
+                    <p class="skill-info">I have extensive experience in developing projects using Python, demonstrating a strong command of its versatile capabilities. One of my project includes building secure web applications with Python Flask, where I have successfully implemented robust security mechanisms.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="java.png" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">Java</h1>
+                    <p class="skill-info">I possess a solid foundation in Java programming, which has enabled me to develop a wide range of applications. My experience includes utilizing Java's object-oriented principles and Java frameworks and libraries to create efficient and modular code.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="data-science.jpeg" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">Data Science</h1>
+                    <p class="skill-info">I love data science and machine learning, having experience in analyzing diverse datasets and training various models. My skills include data cleaning, exploration, and visualization, enabling me to extract valuable insights from complex data. I have worked with a range of machine learning algorithms to build predictive models that drive informed decision-making.  </p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="postgresql.webp" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">PostgreSQL</h1>
+                    <p class="skill-info">I have used PostgreSQL for designing and building relational databases, optimizing schemas, and implementing effective querying strategies. I am proficient in using PostgreSQL's advamced features to ensure data integrity, performance and scalability. My ability to work with complex datasets and execute efficient queries enables me to support strong data-driven applications.</p>
+                </div>
+
+                <div class="skill-card">
+                    <img src="react.jpg" class="skill-img" alt="">
+                    
+                    <h1 class="skill-name">React</h1>
+                    <p class="skill-info">I have gained valuable experience using React in web development, mastering key concepts that enhance the functionality and user experience of web applications. My skills include building dynamic and responsive interfaces with React's component-based architecture, allowing for efficient development and maintenance.</p>
+                </div>
+            <!--Add more cards here-->
+            </div>
+        </div>
+
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">Experience</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Frontend Developer in Grape Software</h1>
+                    <p class="card-detail">From January to March 2024, I worked as a frontend developer at Grape Software, where I contributed to building an impressive interactive webpage. The project involved designing detailed mockups and wireframes using Figma and effectively communicating with the team via Slack to delegate tasks and streamline the development process. This internship provided me with valuable experience and allowed me to learn and work with new technologies, including Figma, Slack, and Microsoft Azure. The positive feedback I received highlighted my ability to create engaging and functional web experiences.</p>
+                </div>
+            </div>
+            <!--//+4 more cards-->
+        </div>
+    </section>
+        
+    <!-- contact section -->
+    <section class="contact-section">
+        <!-- <form class="contact-form">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+            <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form> -->
+
+        <!-- contact section -->
+
+        <form class="contact-form" action="https://formspree.io/f/mvgprkzo" method="POST">
+            <input type="text" name="name" id="name" autocomplete="off" placeholder="name" required>
+            <input type="email" name="email" id="email" autocomplete="off" placeholder="email">
+            <textarea name="message" id="message" placeholder="message" autocomplete="off" required></textarea>
+            <button type="submit" class="form-submit-btn">contact</button>
+        </form>
+        
+    
+
+        
+    </section>
+
+
+  
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
